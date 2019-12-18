@@ -6,6 +6,7 @@ use std::io;
 
 fn main() 
 {
+    println!("Enter a number");
     let mut user_input = String::new();
     io::stdin()
         .read_line(&mut user_input)
